@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repo Search by User</title>
+    <link rel="stylesheet" href="index.css".css">
+</head>
+<body>
+    <h1>Search GitHub by username</h1>
+    <form>
+        <label for="username">Who's repos do you want to see?</label>
+        <input type="text" name="username" id="username" placeholder="tim-hanke" required>
+        <input type="submit" value="List their repos">
+    </form>
+    <section id="error-message" class="hidden"></section>
+    <section id="reposList" class="hidden"></section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
